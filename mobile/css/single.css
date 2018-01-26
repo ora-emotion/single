@@ -1,0 +1,221 @@
+/**
+ * single.css
+ * 落地页样式表
+*/
+
+/* Start : reset styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  font-family: 'Microsoft YaHei';
+}
+a {
+  text-decoration: none;
+}
+strong {
+  width: 100px;
+  height: 100px;
+  font-size: .36rem;
+  color: #313131;
+  line-height: .18rem;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.text-body {
+  font-size: .28rem;
+  line-height: .5rem;
+}
+.text-strong {
+  font-weight: bold;
+}
+.text-indent {
+  text-indent: .58rem;
+}
+.text-justify {
+  text-align: justify;
+}
+
+.main-h1 {
+  font-size: .48rem;
+  padding: .34rem;
+  margin: 0 auto;
+  color: #313131;
+  letter-spacing: 1px;
+}
+
+.color-red {
+  color: #ff3232;
+}
+.color-orange {
+  color: #fb9d2d;
+}
+/* End : reset styles */
+
+/* Start : 时间及出处 */
+.source {
+  padding: 0 .34rem;
+}
+.source-date {
+  font-size: .24rem;
+  color: #919191;
+}
+.source-author {
+  font-size: .24rem;
+  height: .24rem;
+  line-height: .24rem;
+}
+/* End : 时间及出处 */
+
+/* Start : 文章主体 */
+.main-body {
+  padding: 0 .34rem;
+  margin-bottom: .98rem;
+}
+.title {
+  width: 100%;
+  height: 64px;
+}
+.title span {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.title-xqg {
+  background: url("../images/single01/title_xqg.png") no-repeat center center;
+  background-size: 100%;
+}
+.title-mdx {
+  background: url("../images/single01/title_mdx.png") no-repeat center center;
+  background-size: 100%;
+}
+.title-xyal {
+  background: url("../images/single01/title_xyal.png") no-repeat center center;
+  background-size: 100%;
+}
+.title-xyal_01 {
+  display: inline-block;
+  width: 194px;
+  height: 62px;
+  background: url("../images/single01/xyal_xqrx.png") no-repeat center center;
+}
+.title-xyal_02 {
+  display: inline-block;
+  width: 194px;
+  height: 62px;
+  background: url("../images/single01/xyal_mdxx.png") no-repeat center center;
+}
+.title-xyal_03 {
+  display: inline-block;
+  width: 194px;
+  height: 62px;
+  background: url("../images/single01/xyal_dstd.png") no-repeat center center;
+}
+/* End : 文章主体 */
+
+/* Start : 图片样式 */
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: .4rem;
+}
+.img-center .pic {
+  width: 95%;
+}
+.img-center-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-center-row .pic {
+  width: 95%;
+  margin-bottom: .4rem;
+}
+.img-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-center-column .pic {
+  width: 95%;
+  margin-bottom: .4rem;
+}
+/* End : 图片样式 */
+
+/* Start : 页面底部固定挂件 */
+.aside-card {
+  width: 100%;
+  height: .98rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.aside-card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aside-card-item:first-child {
+  width: 50%;
+  height: 100%;
+  background: #f0f0f0;
+}
+.aside-card-item:last-child {
+  width: 50%;
+  height: 100%;
+  background: #ff3232;
+}
+.aside-card-item-icon {
+  display: inline-block;
+}
+.aside-card-item .icon_wechat {
+  width: 47px;
+  height: 38px;
+  background: url("../images/util/icon_wechat.png") no-repeat center center;
+  background-size: 60%;
+}
+.aside-card-item .icon_home {
+  width: 48px;
+  height: 36px;
+  background: url("../images/util/icon_home.png") no-repeat center center;
+  background-size: 60%;
+}
+.aside-card-item-text {
+  font-size: .24rem;
+  position: relative;
+  bottom: 6px;
+  left: 0;
+  color: #313131;
+}
+.aside-card-item:last-child .aside-card-item-text {
+  color: #fff;
+  bottom: 4px;
+}
+/* End : 页面底部固定挂件 */
