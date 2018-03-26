@@ -1,0 +1,332 @@
+/**
+ * @file name    : single02.css
+ * @created time : 2018-01-16 14:13:03
+ * @author       : smpower
+ * @mail         : bzsjxhywrf@outlook.com
+ * @github       : https://github.com/smpower/
+*/
+
+
+/**
+ * 重置默认样式
+*/
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft YaHei";
+}
+a {
+  text-decoration: none;
+}
+
+
+/**
+ * 公共样式
+*/
+.text-center {
+  text-align: center;
+}
+
+
+/**
+ * 页面头部
+*/
+header {
+  width: 100%;
+  height: 100%;
+  padding-top: .3rem;
+}
+.header-title h1 {  /* 页面标题 */
+  font-size: .4rem;
+}
+.header-ts {  /* 发布时间及出处 */
+  height: .22rem;
+  line-height: .22rem;
+}
+.header-ts span {  /* 发布时间及出处 */
+  font-size: .22rem;
+  height: .28rem;
+  line-height: .28rem;
+  color: #616161;
+}
+.header-ts .ts-source a {  /* 发布出处 */
+  color: #ffae49;
+  opacity: .8;
+}
+header hr {  /* 分割线 */
+  width: 100%;
+  height: .02rem;
+  background: #ffae49;
+  border: none;
+}
+
+
+/**
+ * 页面主体
+*/
+.main-group-q {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: .3rem;
+  border: 1px solid #d0d0d0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.main-group-q-info,
+.main-group-a-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: .3rem;
+  padding-right: .3rem;
+  padding-bottom: .3rem;
+  padding-left: .7rem;
+}
+.main-group-q-info img,
+.main-group-a-info img {
+  width: .6rem;
+  height: .6rem;
+}
+.main-group-q-info div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: .1rem;
+}
+.main-group-q-info div span {
+  font-size: .26rem;
+  color: #616161;
+}
+.main-group-q-info-name {
+  color: #313131;
+  font-weight: bold;
+  font-size: .28rem;
+}
+.main-group-q-icon {
+  display: inline-block;
+  width: .5rem;
+  height: .5rem;
+  background: url("../images/single02/icon_q.jpg") no-repeat center center;
+  background-size: 100%;
+  position: absolute;
+  top: .45rem;
+  left: -.08rem;
+}
+.main-group-q-text {
+  padding-left: .7rem;
+  padding-right: .3rem;
+  padding-bottom: .3rem;
+  line-height: .4rem;
+}
+.main-group-q-text p {
+  font-size: .26rem;
+  color: #313131;
+}
+.main-group-a {
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #d0d0d0;
+  margin-bottom: .3rem;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.main-group-a-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-group-a-info>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: .1rem;
+}
+.main-group-a-info-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-group-a-info-name span,
+.main-group-a-info-time {
+  font-size: .26rem;
+  color: #313131;
+}
+.main-group-a-info-name span:first-child {
+  font-size: .26rem;
+  font-weight: bold;
+  color: #616161;
+  padding-right: 10px;
+}
+.main-group-a-info-name span:last-child {
+  font-size: .22rem;
+  color: #919191;
+  margin-top: .04rem;
+}
+.main-group-a-info-name .extra-info .icon-heart {
+  display: inline-block;
+  width: .25rem;
+  height: .23rem;
+  background: url("../images/single02/icon_heart.png") no-repeat center center;
+  background-size: .2rem .18rem;
+  position: relative;
+  top: .01rem;
+  left: 0;
+}
+.main-group-a-info-name span.text-orange {
+  color: green;
+}
+.main-group-a-info-time {
+  color: #616161;
+}
+.main-group-a-text {
+  padding-left: .7rem;
+  padding-right: .3rem;
+}
+.main-group-a-text p {
+  font-size: .28rem;
+  color: #313131;
+  padding-bottom: .3rem;
+}
+.main-group-a-icon {
+  display: inline-block;
+  width: .45rem;
+  height: .46rem;
+  background: url("../images/single02/icon_a.jpg") no-repeat center center;
+  background-size: 100%;
+  position: absolute;
+  top: .45rem;
+  left: -.08rem;
+}
+
+
+/* 备案号 */
+.main-shit-num {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  opacity: .8;
+  margin-top: .3rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: .2rem;
+}
+.main-shit-num p {
+  font-size: .12rem;
+  color: #616161;
+}
+
+
+/* 微信挂件 */
+.bitch {
+  width: 1.07rem;
+  height: 1.11rem;
+  background: url("../images/util/bitch.jpg") no-repeat center center;
+  background-size: 100%;
+  position: fixed;
+  top: 40%;
+  right: 0;
+}
+
+
+/**
+ * 微信模态框
+*/
+.wechat-modal {
+  display: none;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .3);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: all .3s;
+}
+.wechat-modal .modal-box {
+  background: #fff;
+  box-shadow: 0 0 1rem .05rem rgba(0, 0, 0, .3);
+  border-radius: .03rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.wechat-modal .modal-box .modal-close-btn {
+  display: inline-block;
+  width: .24rem;
+  height: .24rem;
+  position: absolute;
+  top: .2rem;
+  right: .2rem;
+  background: url("../images/single02/icon_close.png") no-repeat center center;
+  background-size: 100%;
+  cursor: pointer;
+}
+.wechat-modal .modal-box .wechat-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: .26rem;
+}
+.wechat-modal .modal-box .wechat-content p:first-child {
+  background: #feac49;
+  width: 2.2rem;
+  height: .4rem;
+  line-height: .4rem;
+  margin: 0 auto;
+  border-radius: .03rem;
+  color: #fff;
+  padding: .1rem .2rem;
+  position: relative;
+  top: -.1rem;
+}
+.wechat-modal .modal-box .wechat-content p:last-child {
+  padding-top: .14rem;
+  color: #616161;
+}
+
+
+/**
+ * 页面底部
+*/
+footer {
+  width: 100%;
+  background: #ffae49;
+  padding: .15rem 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+footer p {
+  font-size: .26rem;
+  color: #fff;
+}
+
+p.fuck-you {
+  font-size: .3rem;
+  color: #ffae49;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: .1rem;
+}

@@ -1,0 +1,362 @@
+/**
+ * single02.css
+ * single02 样式表
+ */
+
+
+/**
+ * 重置默认样式
+*/
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+
+/**
+ * 公共样式
+*/
+.inner {
+  width: 700px;
+  margin: 0 auto;
+}
+.text-orange {
+  color: #ffae49;
+}
+.text-center {
+  text-align: center;
+}
+
+
+/**
+ * header - 页面头部样式
+*/
+header {  /* 页面头部根容器样式 */
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {  /* 页面标题样式 */
+  font-size: 22px;
+  font-family: "Microsoft YaHei";
+  color: #313131;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+header .header-inner-ts {  /* 时间及出处跟容器样式 */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 15px;
+}
+header .header-inner-ts span {  /* 时间和出处样式 */
+  display: inline-block;
+  line-height: 28px;
+  height: 28px;
+  font-size: 14px;
+}
+header .header-inner-ts .ts-time {  /* 时间样式 */
+  padding-right: 10px;
+  color: #919191;
+}
+header .header-inner-ts .ts-source a {  /* 出处样式 */
+  color: #ffae49;
+  opacity: .8;
+}
+header hr {  /* 页面头部分割线样式 */
+  width: 100%;
+  margin: 0 auto;
+  height: 2px;
+  background: #ffae49;
+  border: none;
+}
+
+
+/**
+ * 页面主体区域
+*/
+.main {  /* 页面主体区域跟容器样式 */
+  width: 100%;
+  height: 100%;
+  background: url("../images/single02/bg02.png") no-repeat center center;
+  background-size: cover;
+}
+.main-inner {  /* 主体区域居中样式 */
+  background: #fff;
+  padding-top: 30px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.main-inner-item {
+  width: 590px;
+  margin: 0 auto;
+  border: 1px solid #d0d0d0;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  margin-bottom: 30px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.main-inner-item-top {
+  display: flex;
+  justify-content: flex-start;
+  align-center: center;
+  padding-bottom: 30px;
+}
+.main-inner-item-top img {
+  width: 45px;
+  height: 45px;
+}
+.main-inner-item-top-text {
+  height: 45px;
+  line-height: 45px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main-inner-item-top-text span {
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #919191;
+  vertical-align: middle;
+}
+.main-inner-item-top-text .name {
+  font-size: 16px;
+  color: #313131;
+  font-weight: bold;
+}
+.main-inner-item-top-text-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-inner-item-top-text-name span {
+  font-size: 14px;
+  color: #616161;
+}
+.main-inner-item-top-text-name span:nth-child(1) {
+  font-size: 16px;
+  font-weight: bold;
+  color:#313131;
+}
+.main-inner-item-top-text-name span:nth-child(2) {
+  padding-left: 20px;
+}
+.main-inner-item-top-text-name span:nth-child(2)>span {
+  padding: 0 5px;
+  color: green;
+}
+.main-inner-item-top-text-name .icon_heart {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url("../images/single02/icon_heart.png") no-repeat center center;
+  background-size: 14px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.main-inner-item-top .icon-item {
+  display: inline-block;
+  width: 45px;
+  height: 46px;
+  background: url("../images/single02/icon_q.jpg") no-repeat center center;
+  background-size: 100%;
+  position: absolute;
+  top: 30px;
+  left: -5px;
+}
+.main-inner-item-bottom p {
+  color: #313131;
+  line-height: 32px;
+}
+.main-inner-item-bottom p:nth-child(2),
+.main-inner-item-bottom p:nth-child(3),
+.main-inner-item-bottom p:nth-child(4),
+.main-inner-item-bottom p:nth-child(5) {
+  padding-top: 30px;
+}
+.icon-item-answer {
+  display: inline-block;
+  width: 45px;
+  height: 46px;
+  background: url("../images/single02/icon_a.jpg") no-repeat center center;
+  background-size: 100%;
+  position: absolute;
+  top: 30px;
+  left: -5px;
+}
+
+
+/**
+ * 问答分割线
+*/
+.icon_split {
+  display: inline-block;
+  width: 100%;
+  height: 21px;
+  background: url("../images/single02/split.png") no-repeat center center;
+  background-size: 100%;
+  margin-bottom: 30px;
+}
+
+
+/**
+ * 后记
+*/
+.final {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  font-size: 18px;
+}
+
+
+/* 备案号 */
+.main-shit-num {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  opacity: .8;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+.main-shit-num p {
+  font-size: 12px;
+  color: #616161;
+}
+
+
+aside {
+  position: absolute;
+  top: 30px;
+  margin-left: 730px;
+  width: 183px;
+  height: 236px;
+  background: url("../images/single02/qrcode.png") no-repeat center center;
+  background-size: 100%;
+}
+
+
+/**
+ * 微信挂件
+*/
+.bitch {
+  display: inline-block;
+  width: 107px;
+  height: 111px;
+  background: url("../images/util/bitch.jpg") no-repeat center center;
+  background-size: 100%;
+  position: fixed;
+  top: 40%;
+  right: 0;
+  cursor: pointer;
+}
+
+
+/**
+ * 微信模态框
+*/
+.wechat-modal {
+  display: none;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .3);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all .3s;
+}
+.wechat-modal .modal-box {
+  background: #fff;
+  box-shadow: 0 0 100px 5px rgba(0, 0, 0, .3);
+  border-radius: 3px;
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.wechat-modal .modal-box .modal-close-btn {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url("../images/single02/icon_close.png") no-repeat center center;
+  background-size: 100%;
+  cursor: pointer;
+}
+.wechat-modal .modal-box .wechat-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wechat-modal .modal-box .wechat-content p:first-child {
+  background: #feac49;
+  font-size: 20px;
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  border-radius: 3px;
+  color: #fff;
+}
+.wechat-modal .modal-box .wechat-content p:last-child {
+  padding-top: 14px;
+  color: #616161;
+}
+
+
+/**
+ * footer - 页面底部
+*/
+footer {
+  width: 100%;
+  background: #ffae49;
+  padding: 10px 0;
+}
+footer .inner {
+  width: 700px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 14px;
+}
+footer .inner p:last-child {
+  font-size: 12px;
+  padding-top: 10px;
+}

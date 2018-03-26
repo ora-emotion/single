@@ -1,0 +1,64 @@
+/**
+ * @file name    : single02.css
+ * @created time : 2018-01-22 22:24:13
+ * @author       : smpower
+ * @mail         : bzsjxhywrf@outlook.com
+ * @github       : https://github.com/smpower/
+*/
+
+
+/* 重置默认样式 */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, textarea, a, span, i, trong {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft YaHei";
+}
+
+
+/* 公共样式 */
+.text-left { text-align: left; }      /* 文本居左 */
+.text-center { text-align: center; }  /* 文本居中 */
+.text-right { text-align: right; }    /* 文本居右 */
+
+.row-column-start {  /* 水平居左 垂直居上 */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.row-column-center {  /* 水平居中 垂直居中 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row-column-end {  /* 水平居右 垂直居下 */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.row-start-column-center {  /* 水平居左 垂直居中 */
+  display: flex;
+  justify-content: flex-start;1
+  align-items: center;
+}
+.row-end-column-center {  /* 水平居右 垂直居中 */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.column-start-row-center {  /* 垂直居上 水平居中 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.column-end-row-center {  /* 垂直居下 水平居中 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.float-left { float: left; }    /* 向左浮动 */
+.float-right { float: right; }  /* 向右浮动 */
